@@ -1,0 +1,37 @@
+/* Style for User Details Component */
+
+/* Container Styling */
+.user-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Header Styling */
+  .user-details-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Detail Styling */
+  .user-detail-label {
+    font-weight: bold;
+  }
+  
+  .user-detail-value {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .user-details-container {
+      padding: 10px;
+    }
+    
+    .user-details-header {
+      font-size: 20px;
+    }
+  }

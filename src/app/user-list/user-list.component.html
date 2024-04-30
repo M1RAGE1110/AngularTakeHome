@@ -1,0 +1,21 @@
+<table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Website</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{ user.name }}</td>
+        <td>{{ user.email }}</td>
+        <td>{{ user.website }}</td>
+        <td>
+            <!-- Button to navigate to UserDetailsComponent -->
+            <button (click)="navigateToUserDetails(user.id)">View Details</button>
+          </td>
+      </tr>
+    </tbody>
+  </table>
